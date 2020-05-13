@@ -1,0 +1,19 @@
+{
+  "name": "mjml-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "mjml index.mjml -o index.html",
+    "build:watch": "mjml -w index.mjml -o index.html",
+    "clean": "rm -rf dist .cache img.zip index.html",
+    "compress": "zip -rj img.zip img",
+    "deploy": "npm-run-all clean build compress",
+    "serve": "browser-sync start --server --no-notify --no-ghost-mode -f *.html img",
+    "develop": "npm-run-all --parallel build:watch serve"
+  },
+  "devDependencies": {
+    "mjml": "4.1.1",
+    "mjml-cli": "^4.6.1",
+    "mjml-mailchimp": "0.0.5"
+  }
+}

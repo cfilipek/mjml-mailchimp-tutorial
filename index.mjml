@@ -1,0 +1,14 @@
+<mjml>
+  <mj-head>
+  </mj-head>
+
+  <mj-body>
+    <mc-section>
+      <mj-column>
+        <mc-text mc:edit="title">
+          Hello World!
+        </mc-text>
+      </mj-column>
+    </mc-section>
+  </mj-body>
+</mjml>
