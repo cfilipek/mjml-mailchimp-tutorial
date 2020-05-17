@@ -4,7 +4,7 @@ Full YouTube playlist can be found [here](https://www.youtube.com/playlist?list=
 
 Run `yarn` and add an mjmlconfig:
 
-.mjmlconfig
+`.mjmlconfig`
 
 ```
 {
