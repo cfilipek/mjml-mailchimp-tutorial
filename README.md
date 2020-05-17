@@ -2,7 +2,7 @@
 
 Full YouTube playlist can be found [here](https://www.youtube.com/playlist?list=PLERlwnGZmXQ0jpG9s8XE_2clpl6fmmryR)
 
-Run yarn and add an mjmlconfig:
+Run `yarn` and add an mjmlconfig:
 
 .mjmlconfig
 
@@ -16,4 +16,4 @@ Run yarn and add an mjmlconfig:
 }
 ```
 
-Run `yarn build` to convert index.mjml to index.html
+Run `yarn build` to convert `index.mjml` to `index.html`
