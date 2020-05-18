@@ -1,0 +1,21 @@
+<mc-section css-class="divider-container" background-color="#ffffff" padding="40px">
+  <mj-raw>
+    <!--sub header-->
+  </mj-raw>
+
+  <mj-column>
+    <mc-text mc:edit="date" text-transform="uppercase" padding-left="0px" font-size="14px" font-family="Helvetica" color="#000000">
+      *|DATE:M d,Y|*
+    </mc-text>
+    <mc-text mc:edit="sub-head" text-decoration="underline" padding-left="0px" font-size="30px" font-family="Helvetica" color="#000000" font-weight="bold">
+      TODAY'S NEWS
+    </mc-text>
+    <mc-text mc:edit="slogan" text-transform="uppercase" padding-left="0px" padding-bottom="40px" font-size="16px" font-family="Helvetica" color="#000000" font-weight="bold">
+      served hot on the daily
+    </mc-text>
+  </mj-column>
+
+  <mj-column>
+    <mc-image mc:edit="sub-image" css-class="image-subhead-container" height="auto" src="https://i.imgur.com/RSsYKdq.png" align="right" border="none" padding="0px" padding-bottom="20px" />
+  </mj-column>
+</mc-section>
