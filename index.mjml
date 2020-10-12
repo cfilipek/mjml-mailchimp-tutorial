@@ -105,18 +105,18 @@
           <a href="*|LIST:SUBSCRIBE|*">SUBSCRIBE</a>
         </mc-text>
 
-        <mc-text mc:edit="subscribe" font-family="Helvetica" font-weight="bold" padding="10px 0 0 0">
+        <mc-text mc:edit="unsubscribe" font-family="Helvetica" font-weight="bold" padding="10px 0 0 0">
           <a href="*|UNSUB|*">UNSUBSCRIBE</a>
         </mc-text>
 
-        <mc-text mc:edit="subscribe" font-family="Helvetica" font-weight="bold" padding="10px 0 0 0">
+        <mc-text mc:edit="update" font-family="Helvetica" font-weight="bold" padding="10px 0 0 0">
           <a href="*|UPDATE_PROFILE|*">UPDATE PROFILE</a>
         </mc-text>
       </mj-column>
 
       <mj-column>
         <mc-text mc:edit="copyright" font-family="Helvetica" padding="20px 0 0 0">
-          copyright &copy; *|USER:COMPANY|* *|Y|* all rights reserved
+          copyright &copy; *|USER:COMPANY|* *|DATE:y|* all rights reserved
         </mc-text>
       </mj-column>
     </mc-section>
