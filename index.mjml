@@ -116,7 +116,7 @@
 
       <mj-column>
         <mc-text mc:edit="copyright" font-family="Helvetica" padding="20px 0 0 0">
-          copyright &copy; *|USER:COMPANY|* *|DATE:y|* all rights reserved
+          copyright &copy; *|USER:COMPANY|* *|CURRENT_YEAR|* all rights reserved
         </mc-text>
       </mj-column>
     </mc-section>
